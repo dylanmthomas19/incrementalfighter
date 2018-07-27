@@ -98,7 +98,17 @@ class Contact extends Component {
     render() {
         return (
             <div style={{height:500}}>
-                Links to repo, Linkedin pages?
+                <p>
+                    <a href="https://github.com/dylanmthomas19/incrementalfighter">Source Code</a> for this game.
+                    <a href="https://github.com/ephillipsiii/incrementalFighter1.2">Source Code</a> backup, from <a href="https://www.linkedin.com/in/edford-phillips-771840156/">Edford Phillips</a>.
+                </p>
+                <br />
+                    <a href="https://www.linkedin.com/in/dylanmthomas19">LinkedIn</a> page for Dylan Thomas.
+                <br />
+                    <a href="">Link</a> for Johnny Ey
+                <br />
+                    <a href="">Link</a> for Matt K
+                <br />
                 <div>
                     <button onClick={this.Save} id = 'saveButton' >
                         SAVE
@@ -106,9 +116,6 @@ class Contact extends Component {
                     <button onClick={this.Load} id = 'loadButton' >
                         LOAD
                     </button>
-                    {/* <button onClick={this.consoleLog}>
-                        CONSOLE LOG
-                    </button> */}
                 </div>
             </div>
         )
